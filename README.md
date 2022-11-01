@@ -1,2 +1,2 @@
-# christmascard
-Digital animated christmas card
+# Christmascard
+Digital animated christmas card using HTML and CSS
