@@ -1,0 +1,44 @@
+@keyframes wind{
+    from{
+        background-position: 17%;
+    }
+    to{
+        background-position: 57%;
+    }
+}
+
+@keyframes snowA{
+    0%{
+        background-position: 61% 110%;
+    }
+    100%{
+        background-position: 330% 450%;
+    }
+}
+
+@keyframes hat{
+    from{
+        transform: rotate(-5deg);
+    }
+    to{
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes beard{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.03);
+    }
+}
+
+@keyframes mustache{
+    from{
+        transform: scaleX(-1) rotate(-5deg);
+    }
+    to{
+        transform: scaleX(-1) rotate(2deg);
+    }
+}

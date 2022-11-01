@@ -1,0 +1,48 @@
+@media screen and (max-width: 540px) {
+
+    #card .info{
+        padding: 4.3vw !important;
+    }
+
+    #card .info h3 a{
+        font-size: 5.2vw !important;
+    }
+
+    #card .info .logo{
+        width: 42.8vw !important;
+        height: 14vw !important;
+        top: 47.5vw !important;
+        left: 20.1vw !important;
+    }
+
+    #card .info .phrase{
+        width: 53.2vw !important;
+        top: 63.4vw !important;
+        left: 15vw !important;
+    }
+
+    #card .claus-container .hat{
+        width: 60vw !important;
+        top: 16.5vw !important;
+        left: 22vw !important;
+    }
+
+    #card .claus-container .mustache{
+        width: 8.8vw !important;
+        top: 80vw !important;
+        left: 34.5vw !important;
+    }
+
+    #card .claus-container .mustache + .mustache{
+        width: 8.6vw !important;
+        top: 80.3vw !important;
+        left: 44.1vw !important;
+    }
+
+    #card .claus-container .beard{
+        width: 68.2vw !important;
+        top: 67.5vw !important;
+        left:7.5vw !important;
+    }
+
+}
