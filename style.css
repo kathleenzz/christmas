@@ -10,12 +10,20 @@ Author URL: https://jozzzz128.com
 @import url(./css/icons.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@300;700;800&family=Righteous&display=swap');
 @import url(./css/responsive.css);
+@font-face {
+    font-family: "Christmas";
+    src: url('css/fonts/ChristmasSnowflake.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: "New York";
+    src: url('css/fonts/NewYork\ PERSONAL\ USE.otf') format('opentype');
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #fff; 
     user-select: none;
     
     -webkit-user-drag: none; 
@@ -28,13 +36,15 @@ Author URL: https://jozzzz128.com
 :root{
     /*CARD*/
     --background-color: #255142;
+    /* --image-email: url('img/groupPic.jpg'); */
     --margin: 29px * 2;
+
 }
 
 body .content{
     width: 100%;
     min-height: calc(100vh - 64px);
-    background: #333;
+    background: #730202;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +56,8 @@ body .content{
     height: 17.8cm;
     max-width: 90vw;
     max-height: calc(126.14vw);
-    background: url(./img/wind.svg) var(--background-color);
+    /* background: url(./img/wind.svg) var(--image-email); */
+    background-image: url('img/card.svg');
     background-size: auto 100%;
     background-position: 37%;
     position: relative;
@@ -74,18 +85,19 @@ body .content{
 #card .info{
     padding: 25px 29px;
     height: 100%;
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
 }
 
 #card .info h3{
-    font-family: 'Raleway';
-    font-weight: 300;
-    text-transform: uppercase;
+    font-family: 'New York';
+    font-weight: 200;
+    /* text-transform: uppercase; */
     font-size: 24px;
     width: 100%;
+    opacity: 50%;
 }
 
 #card .info h3:last-child{
@@ -94,19 +106,19 @@ body .content{
 }
 
 #card .info h3 a{
-    font-family: 'Righteous';
+    font-family: 'New York';
     font-size: 21px;
     line-height: 1;
     text-decoration: none;
 }
 
 #card .info h3 a span.arr{
-    font-family: 'Righteous';
+    font-family: 'Christmas';
     font-size: 28px;
 }
 
 #card .info h3 a span{
-    font-family: 'Raleway';
+    font-family: 'Christmas';
 }
 
 #card .info .logo{
@@ -125,7 +137,7 @@ body .content{
 }
 
 #card .info h4{
-    font-family: 'Motion Picture';
+    font-family: 'Christmas';
 }
 
 /*CLAUS*/
@@ -168,19 +180,30 @@ body .content{
 }
 
 body footer{
-    background: #191919;
+    background: #255142;
+
     padding: 20px;
     text-align: center;
+    font-family: 'New York';
 }
 
 body footer a{
-    font-family: 'Open Sans';
+    font-family: 'New York';
     text-decoration: none;
     font-size: 18px;
     color: #fff;
 }
 
-body footer a span{
-    margin-right: 5px;
-    color: #fff;
+a:hover {
+    color: #730202;
+}
+
+
+#picBttn {
+    margin-right: 700px;
+    font-family: 'New York';
+}
+
+#backG {
+    background-color: #1A4A73 !important;
 }

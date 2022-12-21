@@ -1,0 +1,131 @@
+* {
+  /* box-sizing: border-box;? */
+  background-color: #255142;
+  /* background-image: url(img/snow.svg); */
+  
+
+}
+
+
+.slider {
+  width: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: #730202;
+  margin: 5px;
+  opacity: 50%;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink:0;
+  width: 100vw;
+  height: 500px;
+  /* margin-right: 50px; */
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  /* position: relative; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slider > a {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  background: white;
+  opacity:75%;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+  color: #1c87c9;
+}
+.slider > a:focus {
+  background: #eee;
+}
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
+}
+
+.slides > .format {
+    background-size:cover; 
+    background-repeat:no-repeat;
+    background-position:center center;  
+}
+
+#slide-1 {
+  background-image: url('img/santa.jpg');
+  background-position: 75% 25%;
+  
+}
+#slide-2 {
+  background-image: url('img/iceSkate.jpg');
+  /* object-fit:cover; */
+    
+}
+#slide-3 {
+  background-image: url('img/ferry.jpg');
+   
+}
+#slide-4 {
+  
+  background-image: url('img/iceSkate3.jpg');
+     
+}
+#slide-5 {
+  background-image: url('img/car.jpg');
+   
+}
+#slide-6 {
+  background-image: url('img/cheers.GIF');
+   
+}
+#slide-7 {
+  background-image: url('img/iceSkate2.GIF');
+   
+}
+#slide-8 {
+  
+  background-image: url('img/gingy.jpg');
+   
+}
+/* #slide-9 {
+  background-image: url('img/santa.jpg');
+   
+}
+#slide-10 {
+  background-image: url('img/santa.jpg');
+   
+} */
+
+
