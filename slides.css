@@ -82,14 +82,13 @@
 
 @media (max-width: 734px) {
   .slides > div {
-    scroll-snap-align: start;
-    flex-shrink:0;
-    width: 450px;
-    height: 400px;
+    margin-right: 15px;
+    width: 100vw;
+    height: 300px;
   }
 
   .slider > a {
-    display: inline-flex;
+    /* display: inline-flex; */
     margin-top: 5px;
     width:10px;
     height: 10px;
