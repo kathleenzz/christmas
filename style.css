@@ -26,6 +26,7 @@ Author URL: https://jozzzz128.com
     color: #fff; 
     user-select: none;
     
+    
     -webkit-user-drag: none; 
     -khtml-user-drag: none; 
     -moz-user-drag: none; 
@@ -33,9 +34,13 @@ Author URL: https://jozzzz128.com
     user-drag: none; 
 }
 
+footer > p {
+    color: #011C40;
+}
+
 :root{
     /*CARD*/
-    --background-color: #255142;
+    --background-color: #D5E2F2;
     /* --image-email: url('img/groupPic.jpg'); */
     --margin: 29px * 2;
 
@@ -44,7 +49,7 @@ Author URL: https://jozzzz128.com
 body .content{
     width: 100%;
     min-height: calc(100vh - 64px);
-    background: #730202;
+    background: #D5E2F2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,8 +185,7 @@ body .content{
 }
 
 body footer{
-    background: #255142;
-
+    /* background: #255142; */
     padding: 20px;
     text-align: center;
     font-family: 'New York';
@@ -195,7 +199,7 @@ body footer a{
 }
 
 a:hover {
-    color: #730202;
+    color: #fff;
 }
 
 
@@ -204,6 +208,7 @@ a:hover {
     font-family: 'New York';
 }
 
-#backG {
+/* #backG > p {
     background-color: #1A4A73 !important;
-}
+    color: white !important;
+} */

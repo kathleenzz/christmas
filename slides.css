@@ -1,6 +1,6 @@
 * {
   /* box-sizing: border-box;? */
-  background-color: #255142;
+  background-color: #011C40;
   /* background-image: url(img/snow.svg); */
   
 
@@ -83,20 +83,34 @@
 @media (max-width: 540px) {
   .slides > div {
     margin-right: 15px;
-    width: 100vw;
-    height: 50vh;
+    width: 90vw;
+    height: 60vh;
     /* width: 42.8vw !important; */
      /* height: 14vw !important; */
   }
 
   .slider > a {
     /* display: inline-flex; */
-    margin-top: 5px;
+    /* margin-top: 5px;
     width:5px;
-    height: 5px;
-    
+    height: 5px; */
+    display:none;
     
   }
+  #card > h3, a {
+  
+  text-transform: uppercase;
+}
+  a:hover {
+  color: white;
+  /* font-size: px; */
+  font-weight:bold;
+  letter-spacing: 1px;
+}
+
+.content {
+  background-color: #D5E2F2 !important;
+}
 }
 
 
