@@ -80,18 +80,21 @@
 
 /* media query */
 
-@media (max-width: 734px) {
+@media (max-width: 540px) {
   .slides > div {
     margin-right: 15px;
     width: 100vw;
-    height: 300px;
+    height: 50vh;
+    /* width: 42.8vw !important; */
+     /* height: 14vw !important; */
   }
 
   .slider > a {
     /* display: inline-flex; */
     margin-top: 5px;
-    width:10px;
-    height: 10px;
+    width:5px;
+    height: 5px;
+    
     
   }
 }
