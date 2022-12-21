@@ -77,6 +77,27 @@
   }
 }
 
+
+/* media query */
+
+@media (max-width: 734px) {
+  .slides > div {
+    scroll-snap-align: start;
+    flex-shrink:0;
+    width: 450px;
+    height: 400px;
+  }
+
+  .slider > a {
+    display: inline-flex;
+    margin-top: 5px;
+    width:10px;
+    height: 10px;
+    
+  }
+}
+
+
 .slides > .format {
     background-size:cover; 
     background-repeat:no-repeat;
@@ -85,8 +106,15 @@
 
 #slide-1 {
   background-image: url('img/santa.jpg');
-  background-position: 75% 25%;
-  
+  /* background-position: 75% 25%; */
+
+}
+
+@media (min-width: 1250px) {
+  #slide-1 {
+    background-position: 75% 25%;
+    
+  }
 }
 #slide-2 {
   background-image: url('img/iceSkate.jpg');
@@ -99,7 +127,7 @@
 }
 #slide-4 {
   
-  background-image: url('img/iceSkate3.jpg');
+  background-image: url('img/iceskate3.jpg');
      
 }
 #slide-5 {
